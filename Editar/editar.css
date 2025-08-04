@@ -1,0 +1,169 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+header{
+    width: 100%;
+    height: 139px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#415FCE;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 64px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#logo{
+    margin-left: 69px;
+}
+#botao{
+    margin-right: 61px;
+}
+
+/*-------------------main----------------*/
+main {
+  padding: 40px 20px;
+}
+
+main h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color:black;
+  text-align: center;
+}
+form {
+  max-width: 850px;
+  margin: 0 auto;
+  background-color:#247BB1 ;
+  padding: 30px 40px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+section {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.primeiro,
+.segundo {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+ }
+.primeiro label,
+.segundo label {
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -0.2px;
+    color: black;  
+}
+input,
+textarea {
+  
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 200px;
+  align-self: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #1F9B5F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button[type="submit"]:hover {
+  background-color: #32965f;
+}
+/*-------------------footer--------------*/
+footer{
+    
+    width: 100%;
+    background-color: #FCF7F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.informacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.endereço{   
+    margin-left: 69px;   
+}
+.primeiro{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    color: #4E8098;
+}
+.segundo{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #274553;
+    margin-top: 8px;
+}
+.contato{    
+    margin-right: 70px;
+}
+.terceiro{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 5%;
+    color: #274553;
+
+}
+.rodape{
+    width: 100%;
+    height: 34px;
+    background-color: #415FCE;
+    display: flex;     
+    align-items: center;
+    justify-content: center; 
+    
+}
+.rodape p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;    
+    line-height: 100%; 
+    color:black;
+}

@@ -1,0 +1,270 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+header{
+    width: 100%;
+    height: 139px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#415FCE;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 64px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#logo{
+    margin-left: 69px;
+}
+#botao{
+    margin-right: 61px;
+}
+
+/*---------------main--------------------*/
+#adicionar {
+  width: 1310px;
+  height: 100px;
+  border-radius: 8px;
+  margin: 20px auto 0;
+  display: block;
+  padding: 10px 20px;
+  background-color:#1F9B5F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 40px;
+  font-family: "Inter";
+  cursor: pointer;
+}
+#adicionar:hover {
+  background-color: #2a8a4e;
+}
+
+#produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding: 40px 60px;
+  justify-items: center;
+}
+.card {
+  position: relative;
+  width: 408px;  
+ 
+  box-shadow: 12px 12px 12px 0px #00000040; 
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+}
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.topo-card {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none; 
+  z-index: 10;
+}
+.topo-card .rating { 
+  padding: 4px 8px;
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 36px;  
+  color:#000000 ;
+  pointer-events: auto; 
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.icone-estrela {
+  width: 16px;
+  height: 16px;
+}
+.icones {
+  display: flex;
+  gap: 8px;
+  pointer-events: auto;
+}
+.icones button,
+.icones a.edit-btn {
+  border: none;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  text-decoration: none; 
+}
+.icones button:hover,
+.icones a.edit-btn:hover {
+  background-color: #e0e0e0;
+}
+.icones button img,
+.icones a.edit-btn img {
+  width: 38px;
+  height: 42px;
+}
+.edit-btn {
+  background-color: #243B98;
+}
+.delete-btn {
+  background-color: #FA0606;
+}
+.info-card {
+  padding: 16px;
+  background-color:#243B98;
+  color: white;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.info-card h3 {
+  margin: 0;
+  font-size: 36px;
+  color: #8CBF26;
+  text-transform: uppercase;
+  font-family: Bold;
+}
+.categoria {
+  font-size: 20px;
+  margin-top: 6px;
+  text-transform: uppercase;
+  font-family: "Inter ";
+}
+.descricao {
+  font-size: 14px;
+  margin-top: 8px;
+  flex-grow: 1;
+  font-family: "Inter";
+  text-align: right;
+}
+.preco {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Inter";  
+  color: #8CBF26;
+  text-align: right;
+}
+#paginacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0 40px;
+}
+.seta {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-size: 24px;
+  color:#1F9B5F;
+  cursor: pointer;
+}
+#numeros-paginas {
+  display: flex;
+  gap: 8px;
+}
+.numero-pagina {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #CFCFCF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.numero-pagina.ativa {
+  background-color: #3AB170;
+}
+/*-------------------footer--------------*/
+footer{
+    
+    width: 100%;
+    background-color: #FCF7F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.informacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.endereço{   
+    margin-left: 69px;   
+}
+.primeiro{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    color: #4E8098;
+}
+.segundo{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #274553;
+    margin-top: 8px;
+}
+.contato{    
+    margin-right: 70px;
+}
+.terceiro{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 5%;
+    color: #274553;
+
+}
+.rodape{
+    width: 100%;
+    height: 34px;
+    background-color: #415FCE;
+    display: flex;     
+    align-items: center;
+    justify-content: center; 
+    
+}
+.rodape p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;    
+    line-height: 100%; 
+    color:black;
+}

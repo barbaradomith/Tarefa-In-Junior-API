@@ -1,0 +1,15 @@
+{
+  "name": "roupinha-api",
+  "version": "1.0.0",
+  "description": "Projeto Roup{IN}nha com json-server",
+  "scripts": {
+    "start-api": "json-server --watch products.json --port 3000"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

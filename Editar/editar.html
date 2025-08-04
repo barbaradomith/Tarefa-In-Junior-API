@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar</title>
+    <link rel="stylesheet" href="editar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <a href="../Home/homepage.html">
+        <img src="../Assets/shirt_svgrepo.com.png" id="logo">
+        </a>
+        <p>Roup{IN}nha</p>
+        <img src="../Assets/Frame 427318376.png"id=botao>
+
+    </header>
+    <main>
+        <h1>Editar peça do Estoque</h1>
+        
+        <form id="form-adicionar">
+
+        <section>  
+        <div class="primeiro">
+            <label for="nome">Nome da peça</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required />
+
+            <label for="imagem">Image</label>
+            <input type="url" id="imagem" name="imagem" placeholder="Image" required />
+
+            <label for="descricao">Descrição</label>
+            <textarea id="descricao" name="descricao" placeholder="Descrição" required></textarea>
+        </div>
+        <div class="segundo">
+            <label for="preco">Preço</label>
+            <input type="number" id="preco" name="preco" step="0.01" placeholder="Preço" />
+
+            <label for="categoria">Categorias</label>
+            <input type="text" id="categoria" name="categoria" placeholder="Categorias" required />
+
+            <label for="avaliacao">Avaliação</label>
+            <input type="number" id="avaliacao" name="avaliacao" step="0.1" min="0" max="5" placeholder="Avaliação" />
+        </div>
+        </section>
+        <button type="submit">Editar peça</button>
+        </form>
+  </main>
+    
+    <footer>    
+        <div class="informacao">
+            <div class="endereço">
+                <p class="primeiro">Endereço</p>
+                <p class="segundo">Av. Milton Tavares de Souza,<br> s/n - Sala 115 B -<br> Boa Viagem, Niterói - RJ <br>
+                CEP: 24210-315 </p>
+            </div>
+            <div class="contato">
+                <p class="primeiro">Fale Conosco</p>
+                <p class="terceiro">contato@injunior.com.br</p>
+                <img src="../Assets/Redes Sociais.png">
+            </div>
+            </div>
+        <div class="rodape">
+            <p>© Copyright 2025. IN Junior. Todos os direitos reservados. Niterói, Brasil.</p>            
+        </div>
+    </footer>
+    
+    <script  src="editar.js" ></script>
+</body>
+</html>
