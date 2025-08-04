@@ -23,9 +23,10 @@ Funcionalidades
 - Git & GitHub
 
  Observações
-A aplicação consome dados da API simulada localmente usando o db.json.
-A porta padrão usada para a API é a 3001. Se você alterar, lembre-se de atualizar os arquivos .js correspondentes.
-Este projeto não é responsivo.
+ 
+-A aplicação consome dados da API simulada localmente usando o db.json.
+-A porta padrão usada para a API é a 3001. Se você alterar, lembre-se de atualizar os arquivos .js correspondentes.
+-Este projeto não é responsivo.
 
 
 
